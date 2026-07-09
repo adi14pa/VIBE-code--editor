@@ -4,7 +4,7 @@ import "./globals.css";
 
 import { SessionProvider } from "next-auth/react";
 import { auth } from "@/auth";
-import { ThemeProvider } from "@/components/providers/theme-providers";
+import { ThemeProvider } from "@/components/ui/providers/theme-providers";
 import { Toaster } from "@/components/ui/sonner";
 
 const geistSans = Geist({

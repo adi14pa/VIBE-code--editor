@@ -20,7 +20,7 @@ const Page = async () => {
         <AddRepo />
       </div>
 
-      <div className="mt-10 w-full">
+      <div className="mt-10 flex flex-col justify-center items-center w-full">
         <ProjectTable
           projects={playgrounds || []}
           onDeleteProject={deleteProjectById}
