@@ -11,7 +11,12 @@ import ProjectTable from "@/modules/dashboard/components/project-table";
 import React from "react";
 
 const Page = async () => {
-  return <div className="p-10 text-2xl">Dashboard Works ✅</div>;
+  return (
+    <div className="flex flex-col justify-start items-center min-h-screen mx-auto max-w-7xl px-4 py-10 gap-6">
+      <AddNewButton />
+      <AddRepo />
+    </div>
+  );
 };
 
 export default Page;
